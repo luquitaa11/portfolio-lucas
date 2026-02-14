@@ -104,9 +104,11 @@ section {
 }
 
 @media (max-width: 768px) {
-  nav {
+
+  header {
     flex-direction: column;
-    gap: 10px;
+    text-align: center;
+    gap: 15px;
   }
 
   nav ul {
@@ -114,7 +116,15 @@ section {
     gap: 10px;
   }
 
+  #hero {
+    padding: 60px 20px;
+  }
+
   #hero h2 {
-    font-size: 24px;
+    font-size: 22px;
+  }
+
+  #hero p {
+    font-size: 16px;
   }
 }
